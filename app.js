@@ -5,8 +5,8 @@
 //});
 //app.listen(4000);//change port
 const express = require("express");
-const env = require("env");
-dotenv.config({path:"env"});
+const dotenv = require("dotenv");
+dotenv.config({path:".env"});
 //const PORT=process.env.PORT;
 const PORT=3000;
 const app=express();

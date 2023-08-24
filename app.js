@@ -5,9 +5,10 @@
 //});
 //app.listen(4000);//change port
 const express = require("express");
-const dotenv = require("dotenv");
+const dotenv = require(".env");
 dotenv.config({path:".env"});
-const PORT=process.env.PORT;
+//const PORT=process.env.PORT;
+const PORT=3000;
 const app=express();
 app.get("/",(req,res)=>{
     res 
